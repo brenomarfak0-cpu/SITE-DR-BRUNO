@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Dr. Bruno Gomes — Cirurgião Bucomaxilofacial em Cuiabá. Cirurgia Ortognática, Mentoplastia e Próteses Faciais com planejamento digital individualizado." />
-  <meta name="keywords" content="cirurgia ortognática cuiabá, mentoplastia cuiabá, próteses faciais, cirurgião bucomaxilofacial, Dr Bruno" />
+  <meta name="keywords" content="cirurgia ortognática cuiabá, mentoplastia cuiabá, próteses faciais, cirurgião bucomaxilofacial, Dr Bruno Gomes" />
   <meta property="og:title" content="Dr. Bruno Gomes — Cirurgia Facial em Cuiabá" />
   <meta property="og:description" content="Cirurgia Ortognática, Mentoplastia e Próteses Faciais com planejamento bucomaxilofacial em Cuiabá." />
   <meta property="og:type" content="website" />
@@ -29,6 +29,9 @@
         <a href="#procedimentos" class="nav__link">Procedimentos</a>
         <a href="#contato" class="nav__link">Contato</a>
         <a href="#localizacao" class="nav__link">Localização</a>
+        <a href="https://www.instagram.com/drbruno.bucomaxilo/" target="_blank" rel="noopener" class="nav__instagram" aria-label="Instagram Dr. Bruno">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
         <a href="https://wa.me/5565981481988?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20quero%20agendar%20uma%20consulta%20com%20o%20Dr.%20Bruno." target="_blank" rel="noopener" class="btn btn--primary btn--sm">Agendar avaliação</a>
       </nav>
       <button class="hamburger" id="hamburger" aria-label="Abrir menu">
@@ -59,27 +62,15 @@
           <a href="#resultados" class="btn btn--outline">Ver resultados</a>
         </div>
         <div class="hero__badges">
-          <div class="badge">
-            <span class="badge__dot"></span>
-            Cirurgião Bucomaxilofacial
-          </div>
-          <div class="badge">
-            <span class="badge__dot"></span>
-            Planejamento cirúrgico digital
-          </div>
-          <div class="badge">
-            <span class="badge__dot"></span>
-            Atendimento em Cuiabá MT
-          </div>
-          <div class="badge">
-            <span class="badge__dot"></span>
-            Foco em cirurgia da face
-          </div>
+          <div class="badge"><span class="badge__dot"></span>Cirurgião Bucomaxilofacial</div>
+          <div class="badge"><span class="badge__dot"></span>Planejamento cirúrgico digital</div>
+          <div class="badge"><span class="badge__dot"></span>Atendimento em Cuiabá MT</div>
+          <div class="badge"><span class="badge__dot"></span>Foco em cirurgia da face</div>
         </div>
       </div>
       <div class="hero__visual">
         <div class="hero__img-wrap">
-          <img src="images/hero.jpg" alt="Planejamento cirúrgico facial" class="hero__img" loading="eager" onerror="this.style.display='none'" />
+          <img src="images/hero.jpg" alt="Planejamento cirúrgico facial" class="hero__img" loading="eager" onload="this.nextElementSibling.style.display='none'" onerror="this.style.display='none'" />
           <div class="hero__img-placeholder">
             <svg viewBox="0 0 200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
               <ellipse cx="100" cy="100" rx="55" ry="65" stroke="#C8A96A" stroke-width="1.5" fill="none" opacity="0.5"/>
@@ -97,9 +88,7 @@
         </div>
       </div>
     </div>
-    <div class="hero__scroll">
-      <span></span>
-    </div>
+    <div class="hero__scroll"><span></span></div>
   </section>
 
   <!-- ===== IDENTIFICAÇÃO ===== -->
@@ -109,54 +98,14 @@
         <h2 class="section-title">Você sente que seu rosto, queixo<br class="hide-mobile" /> ou mandíbula não estão em harmonia?</h2>
       </div>
       <div class="identify__grid">
-        <div class="identify__card">
-          <div class="identify__icon">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3C8.5 3 7 6 7 9c0 3 2 5 3 6l-2 4h8l-2-4c1-1 3-3 3-6 0-3-1.5-6-5-6z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
-          </div>
-          <p>Queixo para trás</p>
-        </div>
-        <div class="identify__card">
-          <div class="identify__icon">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3C8.5 3 7 6 7 9c0 3 2 5 3 6l-2 4h8l-2-4c1-1 3-3 3-6 0-3-1.5-6-5-6z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
-          </div>
-          <p>Queixo muito projetado</p>
-        </div>
-        <div class="identify__card">
-          <div class="identify__icon">
-            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="10" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M8 17l-2 4h12l-2-4" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
-          </div>
-          <p>Mandíbula pouco definida</p>
-        </div>
-        <div class="identify__card">
-          <div class="identify__icon">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3a9 9 0 0 1 0 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M12 3a9 9 0 0 0 0 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="3 3"/></svg>
-          </div>
-          <p>Assimetria facial</p>
-        </div>
-        <div class="identify__card">
-          <div class="identify__icon">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M6 12h12M8 8l-4 4 4 4M16 8l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </div>
-          <p>Mordida alterada</p>
-        </div>
-        <div class="identify__card">
-          <div class="identify__icon">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M5 12c0-3.866 3.134-7 7-7s7 3.134 7 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M5 12c0 3.866 3.134 7 7 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 2"/></svg>
-          </div>
-          <p>Perfil facial desarmônico</p>
-        </div>
-        <div class="identify__card">
-          <div class="identify__icon">
-            <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </div>
-          <p>Indicação para cirurgia ortognática</p>
-        </div>
-        <div class="identify__card">
-          <div class="identify__icon">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z" stroke="currentColor" stroke-width="1.5"/><path d="M12 8v4l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </div>
-          <p>Desejo de melhorar o contorno facial</p>
-        </div>
+        <div class="identify__card"><div class="identify__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3C8.5 3 7 6 7 9c0 3 2 5 3 6l-2 4h8l-2-4c1-1 3-3 3-6 0-3-1.5-6-5-6z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></div><p>Queixo para trás</p></div>
+        <div class="identify__card"><div class="identify__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3C8.5 3 7 6 7 9c0 3 2 5 3 6l-2 4h8l-2-4c1-1 3-3 3-6 0-3-1.5-6-5-6z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></div><p>Queixo muito projetado</p></div>
+        <div class="identify__card"><div class="identify__icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="10" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M8 17l-2 4h12l-2-4" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></div><p>Mandíbula pouco definida</p></div>
+        <div class="identify__card"><div class="identify__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3a9 9 0 0 1 0 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M12 3a9 9 0 0 0 0 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="3 3"/></svg></div><p>Assimetria facial</p></div>
+        <div class="identify__card"><div class="identify__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M6 12h12M8 8l-4 4 4 4M16 8l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><p>Mordida alterada</p></div>
+        <div class="identify__card"><div class="identify__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12c0-3.866 3.134-7 7-7s7 3.134 7 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M5 12c0 3.866 3.134 7 7 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 2"/></svg></div><p>Perfil facial desarmônico</p></div>
+        <div class="identify__card"><div class="identify__icon"><svg viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><p>Indicação para cirurgia ortognática</p></div>
+        <div class="identify__card"><div class="identify__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z" stroke="currentColor" stroke-width="1.5"/><path d="M12 8v4l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><p>Desejo de melhorar o contorno facial</p></div>
       </div>
       <div class="identify__cta">
         <a href="https://wa.me/5565981481988?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20quero%20agendar%20uma%20consulta%20com%20o%20Dr.%20Bruno." target="_blank" rel="noopener" class="btn btn--primary">
@@ -177,27 +126,21 @@
       <div class="procedures__grid">
         <div class="procedure__card">
           <div class="procedure__number">01</div>
-          <div class="procedure__icon">
-            <svg viewBox="0 0 64 64" fill="none"><ellipse cx="32" cy="28" rx="16" ry="20" stroke="currentColor" stroke-width="1.5"/><path d="M22 48 Q32 54 42 48" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="16" y1="28" x2="48" y2="28" stroke="currentColor" stroke-width="0.75" stroke-dasharray="3 3" opacity="0.5"/><line x1="18" y1="20" x2="46" y2="20" stroke="currentColor" stroke-width="0.75" stroke-dasharray="3 3" opacity="0.5"/><line x1="18" y1="36" x2="46" y2="36" stroke="currentColor" stroke-width="0.75" stroke-dasharray="3 3" opacity="0.5"/></svg>
-          </div>
+          <div class="procedure__icon"><svg viewBox="0 0 64 64" fill="none"><ellipse cx="32" cy="28" rx="16" ry="20" stroke="currentColor" stroke-width="1.5"/><path d="M22 48 Q32 54 42 48" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
           <h3 class="procedure__name">Cirurgia Ortognática</h3>
           <p class="procedure__desc">Correção da posição dos maxilares e mandíbula para melhorar mordida, função e proporção facial.</p>
           <a href="https://wa.me/5565981481988?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20quero%20agendar%20uma%20consulta%20com%20o%20Dr.%20Bruno." target="_blank" rel="noopener" class="procedure__link">Saber mais →</a>
         </div>
         <div class="procedure__card">
           <div class="procedure__number">02</div>
-          <div class="procedure__icon">
-            <svg viewBox="0 0 64 64" fill="none"><path d="M32 14 Q20 20 20 34 Q20 46 32 50 Q44 46 44 34 Q44 20 32 14Z" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M26 42 Q32 48 38 42" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="32" cy="44" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
-          </div>
+          <div class="procedure__icon"><svg viewBox="0 0 64 64" fill="none"><path d="M32 14 Q20 20 20 34 Q20 46 32 50 Q44 46 44 34 Q44 20 32 14Z" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M26 42 Q32 48 38 42" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="32" cy="44" r="3" stroke="currentColor" stroke-width="1.5"/></svg></div>
           <h3 class="procedure__name">Mentoplastia</h3>
           <p class="procedure__desc">Cirurgia para ajustar o formato, avanço ou recuo do queixo, melhorando o equilíbrio do perfil facial.</p>
           <a href="https://wa.me/5565981481988?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20quero%20agendar%20uma%20consulta%20com%20o%20Dr.%20Bruno." target="_blank" rel="noopener" class="procedure__link">Saber mais →</a>
         </div>
         <div class="procedure__card">
           <div class="procedure__number">03</div>
-          <div class="procedure__icon">
-            <svg viewBox="0 0 64 64" fill="none"><path d="M20 44 Q16 36 18 28 Q20 18 32 16 Q44 18 46 28 Q48 36 44 44" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M24 44 Q28 50 32 52 Q36 50 40 44" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M24 36 Q24 42 32 44 Q40 42 40 36" stroke="currentColor" stroke-width="1" stroke-dasharray="2 2" opacity="0.6"/></svg>
-          </div>
+          <div class="procedure__icon"><svg viewBox="0 0 64 64" fill="none"><path d="M20 44 Q16 36 18 28 Q20 18 32 16 Q44 18 46 28 Q48 36 44 44" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M24 44 Q28 50 32 52 Q36 50 40 44" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
           <h3 class="procedure__name">Próteses Faciais</h3>
           <p class="procedure__desc">Implantes faciais planejados para melhorar contorno, projeção e definição da mandíbula, mento ou outras regiões da face.</p>
           <a href="https://wa.me/5565981481988?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20quero%20agendar%20uma%20consulta%20com%20o%20Dr.%20Bruno." target="_blank" rel="noopener" class="procedure__link">Saber mais →</a>
@@ -220,169 +163,19 @@
         <h2 class="section-title">Resultados reais de planejamento facial</h2>
         <p class="section-sub">Casos de ortognática, mentoplastia e próteses faciais realizados com planejamento individualizado.</p>
       </div>
-
       <div class="results__filters">
         <button class="filter__btn active" data-filter="all">Todos</button>
         <button class="filter__btn" data-filter="ortognatica">Ortognática</button>
         <button class="filter__btn" data-filter="mentoplastia">Mentoplastia</button>
-        <button class="filter__btn" data-filter="protese-mandibula">Prótese de Mandíbula</button>
         <button class="filter__btn" data-filter="protese-mento">Prótese de Mento</button>
-        <button class="filter__btn" data-filter="protese-facial">Prótese Facial</button>
       </div>
-
       <div class="results__grid" id="resultsGrid">
-        <!-- Cards gerados pelo JS com placeholder quando não há fotos -->
-        <div class="result__card" data-category="ortognatica">
-          <div class="result__before-after">
-            <div class="result__img-wrap">
-              <div class="result__label">Antes</div>
-              <img src="images/results/ortognatica-1-antes.jpg" alt="Antes - Cirurgia Ortognática" loading="lazy" onerror="this.closest('.result__img-wrap').classList.add('no-img')" />
-              <div class="result__placeholder">
-                <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="18" stroke="#C8A96A" stroke-width="1"/><path d="M25 62 Q40 68 55 62" stroke="#C8A96A" stroke-width="1" stroke-linecap="round"/></svg>
-              </div>
-            </div>
-            <div class="result__divider">
-              <span>→</span>
-            </div>
-            <div class="result__img-wrap">
-              <div class="result__label">Depois</div>
-              <img src="images/results/ortognatica-1-depois.jpg" alt="Depois - Cirurgia Ortognática" loading="lazy" onerror="this.closest('.result__img-wrap').classList.add('no-img')" />
-              <div class="result__placeholder">
-                <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="18" stroke="#C8A96A" stroke-width="1"/><path d="M25 62 Q40 68 55 62" stroke="#C8A96A" stroke-width="1" stroke-linecap="round"/></svg>
-              </div>
-            </div>
-          </div>
-          <div class="result__info">
-            <span class="result__tag">Cirurgia Ortognática</span>
-          </div>
-        </div>
-
-        <div class="result__card" data-category="mentoplastia">
-          <div class="result__before-after">
-            <div class="result__img-wrap">
-              <div class="result__label">Antes</div>
-              <img src="images/results/mentoplastia-1-antes.jpg" alt="Antes - Mentoplastia" loading="lazy" onerror="this.closest('.result__img-wrap').classList.add('no-img')" />
-              <div class="result__placeholder">
-                <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="18" stroke="#C8A96A" stroke-width="1"/><path d="M25 62 Q40 68 55 62" stroke="#C8A96A" stroke-width="1" stroke-linecap="round"/></svg>
-              </div>
-            </div>
-            <div class="result__divider"><span>→</span></div>
-            <div class="result__img-wrap">
-              <div class="result__label">Depois</div>
-              <img src="images/results/mentoplastia-1-depois.jpg" alt="Depois - Mentoplastia" loading="lazy" onerror="this.closest('.result__img-wrap').classList.add('no-img')" />
-              <div class="result__placeholder">
-                <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="18" stroke="#C8A96A" stroke-width="1"/><path d="M25 62 Q40 68 55 62" stroke="#C8A96A" stroke-width="1" stroke-linecap="round"/></svg>
-              </div>
-            </div>
-          </div>
-          <div class="result__info">
-            <span class="result__tag">Mentoplastia</span>
-          </div>
-        </div>
-
-        <div class="result__card" data-category="protese-mento">
-          <div class="result__before-after">
-            <div class="result__img-wrap">
-              <div class="result__label">Antes</div>
-              <img src="images/results/protese-mento-1-antes.jpg" alt="Antes - Prótese de Mento" loading="lazy" onerror="this.closest('.result__img-wrap').classList.add('no-img')" />
-              <div class="result__placeholder">
-                <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="18" stroke="#C8A96A" stroke-width="1"/><path d="M25 62 Q40 68 55 62" stroke="#C8A96A" stroke-width="1" stroke-linecap="round"/></svg>
-              </div>
-            </div>
-            <div class="result__divider"><span>→</span></div>
-            <div class="result__img-wrap">
-              <div class="result__label">Depois</div>
-              <img src="images/results/protese-mento-1-depois.jpg" alt="Depois - Prótese de Mento" loading="lazy" onerror="this.closest('.result__img-wrap').classList.add('no-img')" />
-              <div class="result__placeholder">
-                <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="18" stroke="#C8A96A" stroke-width="1"/><path d="M25 62 Q40 68 55 62" stroke="#C8A96A" stroke-width="1" stroke-linecap="round"/></svg>
-              </div>
-            </div>
-          </div>
-          <div class="result__info">
-            <span class="result__tag">Prótese de Mento</span>
-          </div>
-        </div>
-
-        <div class="result__card" data-category="protese-mandibula">
-          <div class="result__before-after">
-            <div class="result__img-wrap">
-              <div class="result__label">Antes</div>
-              <img src="images/results/protese-mandibula-1-antes.jpg" alt="Antes - Prótese de Mandíbula" loading="lazy" onerror="this.closest('.result__img-wrap').classList.add('no-img')" />
-              <div class="result__placeholder">
-                <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="18" stroke="#C8A96A" stroke-width="1"/><path d="M25 62 Q40 68 55 62" stroke="#C8A96A" stroke-width="1" stroke-linecap="round"/></svg>
-              </div>
-            </div>
-            <div class="result__divider"><span>→</span></div>
-            <div class="result__img-wrap">
-              <div class="result__label">Depois</div>
-              <img src="images/results/protese-mandibula-1-depois.jpg" alt="Depois - Prótese de Mandíbula" loading="lazy" onerror="this.closest('.result__img-wrap').classList.add('no-img')" />
-              <div class="result__placeholder">
-                <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="18" stroke="#C8A96A" stroke-width="1"/><path d="M25 62 Q40 68 55 62" stroke="#C8A96A" stroke-width="1" stroke-linecap="round"/></svg>
-              </div>
-            </div>
-          </div>
-          <div class="result__info">
-            <span class="result__tag">Prótese de Mandíbula</span>
-          </div>
-        </div>
-
-        <div class="result__card" data-category="protese-facial">
-          <div class="result__before-after">
-            <div class="result__img-wrap">
-              <div class="result__label">Antes</div>
-              <img src="images/results/protese-facial-1-antes.jpg" alt="Antes - Prótese Facial" loading="lazy" onerror="this.closest('.result__img-wrap').classList.add('no-img')" />
-              <div class="result__placeholder">
-                <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="18" stroke="#C8A96A" stroke-width="1"/><path d="M25 62 Q40 68 55 62" stroke="#C8A96A" stroke-width="1" stroke-linecap="round"/></svg>
-              </div>
-            </div>
-            <div class="result__divider"><span>→</span></div>
-            <div class="result__img-wrap">
-              <div class="result__label">Depois</div>
-              <img src="images/results/protese-facial-1-depois.jpg" alt="Depois - Prótese Facial" loading="lazy" onerror="this.closest('.result__img-wrap').classList.add('no-img')" />
-              <div class="result__placeholder">
-                <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="18" stroke="#C8A96A" stroke-width="1"/><path d="M25 62 Q40 68 55 62" stroke="#C8A96A" stroke-width="1" stroke-linecap="round"/></svg>
-              </div>
-            </div>
-          </div>
-          <div class="result__info">
-            <span class="result__tag">Prótese Facial</span>
-          </div>
-        </div>
-
-        <div class="result__card" data-category="ortognatica">
-          <div class="result__before-after">
-            <div class="result__img-wrap">
-              <div class="result__label">Antes</div>
-              <img src="images/results/ortognatica-2-antes.jpg" alt="Antes - Cirurgia Ortognática" loading="lazy" onerror="this.closest('.result__img-wrap').classList.add('no-img')" />
-              <div class="result__placeholder">
-                <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="18" stroke="#C8A96A" stroke-width="1"/><path d="M25 62 Q40 68 55 62" stroke="#C8A96A" stroke-width="1" stroke-linecap="round"/></svg>
-              </div>
-            </div>
-            <div class="result__divider"><span>→</span></div>
-            <div class="result__img-wrap">
-              <div class="result__label">Depois</div>
-              <img src="images/results/ortognatica-2-depois.jpg" alt="Depois - Cirurgia Ortognática" loading="lazy" onerror="this.closest('.result__img-wrap').classList.add('no-img')" />
-              <div class="result__placeholder">
-                <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="18" stroke="#C8A96A" stroke-width="1"/><path d="M25 62 Q40 68 55 62" stroke="#C8A96A" stroke-width="1" stroke-linecap="round"/></svg>
-              </div>
-            </div>
-          </div>
-          <div class="result__info">
-            <span class="result__tag">Cirurgia Ortognática</span>
-          </div>
-        </div>
+        <div class="result__card" data-category="ortognatica"><div class="result__before-after"><div class="result__img-wrap"><div class="result__label">Antes</div><img src="images/results/ortognatica-1-antes.jpg" alt="Antes - Cirurgia Ortognática" loading="lazy" onerror="this.closest('.result__img-wrap').classList.add('no-img')" /><div class="result__placeholder"><svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="18" stroke="#C8A96A" stroke-width="1"/><path d="M25 62 Q40 68 55 62" stroke="#C8A96A" stroke-width="1" stroke-linecap="round"/></svg></div></div><div class="result__divider"><span>→</span></div><div class="result__img-wrap"><div class="result__label">Depois</div><img src="images/results/ortognatica-1-depois.jpg" alt="Depois - Cirurgia Ortognática" loading="lazy" onerror="this.closest('.result__img-wrap').classList.add('no-img')" /><div class="result__placeholder"><svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="18" stroke="#C8A96A" stroke-width="1"/><path d="M25 62 Q40 68 55 62" stroke="#C8A96A" stroke-width="1" stroke-linecap="round"/></svg></div></div></div><div class="result__info"><span class="result__tag">Cirurgia Ortognática</span></div></div>
+        <div class="result__card" data-category="mentoplastia"><div class="result__before-after"><div class="result__img-wrap"><div class="result__label">Antes</div><img src="images/results/mentoplastia-1-antes.jpg" alt="Antes - Mentoplastia" loading="lazy" onerror="this.closest('.result__img-wrap').classList.add('no-img')" /><div class="result__placeholder"><svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="18" stroke="#C8A96A" stroke-width="1"/><path d="M25 62 Q40 68 55 62" stroke="#C8A96A" stroke-width="1" stroke-linecap="round"/></svg></div></div><div class="result__divider"><span>→</span></div><div class="result__img-wrap"><div class="result__label">Depois</div><img src="images/results/mentoplastia-1-depois.jpg" alt="Depois - Mentoplastia" loading="lazy" onerror="this.closest('.result__img-wrap').classList.add('no-img')" /><div class="result__placeholder"><svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="18" stroke="#C8A96A" stroke-width="1"/><path d="M25 62 Q40 68 55 62" stroke="#C8A96A" stroke-width="1" stroke-linecap="round"/></svg></div></div></div><div class="result__info"><span class="result__tag">Mentoplastia</span></div></div>
+        <div class="result__card" data-category="protese-mento"><div class="result__before-after"><div class="result__img-wrap"><div class="result__label">Antes</div><img src="images/results/protese-mento-1-antes.jpg" alt="Antes - Prótese de Mento" loading="lazy" onerror="this.closest('.result__img-wrap').classList.add('no-img')" /><div class="result__placeholder"><svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="18" stroke="#C8A96A" stroke-width="1"/><path d="M25 62 Q40 68 55 62" stroke="#C8A96A" stroke-width="1" stroke-linecap="round"/></svg></div></div><div class="result__divider"><span>→</span></div><div class="result__img-wrap"><div class="result__label">Depois</div><img src="images/results/protese-mento-1-depois.jpg" alt="Depois - Prótese de Mento" loading="lazy" onerror="this.closest('.result__img-wrap').classList.add('no-img')" /><div class="result__placeholder"><svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="30" r="18" stroke="#C8A96A" stroke-width="1"/><path d="M25 62 Q40 68 55 62" stroke="#C8A96A" stroke-width="1" stroke-linecap="round"/></svg></div></div></div><div class="result__info"><span class="result__tag">Prótese de Mento</span></div></div>
       </div>
-
-      <p class="results__disclaimer">
-        Cada caso é individual e os resultados podem variar conforme diagnóstico, planejamento e características de cada paciente.
-      </p>
-
-      <div class="results__cta">
-        <a href="https://wa.me/5565981481988?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20quero%20agendar%20uma%20consulta%20com%20o%20Dr.%20Bruno." target="_blank" rel="noopener" class="btn btn--primary">
-          <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.116.549 4.107 1.51 5.845L.057 23.664a.5.5 0 0 0 .605.637l6.011-1.576A11.946 11.946 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.892 0-3.664-.516-5.18-1.414l-.371-.22-3.844 1.008 1.026-3.739-.241-.387A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
-          Agendar avaliação
-        </a>
-      </div>
+      <p class="results__disclaimer">Cada caso é individual e os resultados podem variar conforme diagnóstico, planejamento e características de cada paciente.</p>
+      <div class="results__cta"><a href="https://wa.me/5565981481988?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20quero%20agendar%20uma%20consulta%20com%20o%20Dr.%20Bruno." target="_blank" rel="noopener" class="btn btn--primary"><svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.116.549 4.107 1.51 5.845L.057 23.664a.5.5 0 0 0 .605.637l6.011-1.576A11.946 11.946 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.892 0-3.664-.516-5.18-1.414l-.371-.22-3.844 1.008 1.026-3.739-.241-.387A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>Agendar avaliação</a></div>
     </div>
   </section>
 
@@ -391,7 +184,11 @@
     <div class="container about__inner">
       <div class="about__visual">
         <div class="about__img-wrap">
+<<<<<<< HEAD
           <img src="images/dr-bruno.jpg" alt="Dr. Bruno Gomes — Cirurgião Bucomaxilofacial" class="about__img" loading="lazy" onerror="this.style.display='none'" />
+=======
+          <img src="images/dr-bruno.jpg" alt="Dr. Bruno Gomes — Cirurgião Bucomaxilofacial" class="about__img" loading="lazy" onload="this.nextElementSibling.style.display='none'" onerror="this.style.display='none'" />
+>>>>>>> main
           <div class="about__img-placeholder">
             <svg viewBox="0 0 200 240" fill="none"><ellipse cx="100" cy="90" rx="50" ry="60" stroke="#C8A96A" stroke-width="1.5" fill="none" opacity="0.4"/><path d="M60 170 Q100 185 140 170 L140 210 Q100 225 60 210 Z" stroke="#C8A96A" stroke-width="1" fill="none" opacity="0.3"/><text x="100" y="230" text-anchor="middle" fill="#C8A96A" font-size="9" font-family="Inter" opacity="0.5">Dr. Bruno Gomes</text></svg>
           </div>
@@ -402,87 +199,38 @@
         <h2 class="section-title about__title">Dr. Bruno Gomes</h2>
         <p class="about__bio">Cirurgião Bucomaxilofacial com atuação em cirurgia ortognática, mentoplastia e próteses faciais, com foco em planejamento digital, harmonia facial e segurança em cirurgias da face.</p>
         <ul class="about__list">
-          <li class="about__item">
-            <span class="about__check">
-              <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3.5 3.5L13 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-            Planejamento cirúrgico digital
-          </li>
-          <li class="about__item">
-            <span class="about__check">
-              <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3.5 3.5L13 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-            Avaliação individualizada da face
-          </li>
-          <li class="about__item">
-            <span class="about__check">
-              <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3.5 3.5L13 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-            Correção de alterações da maxila, mandíbula e queixo
-          </li>
-          <li class="about__item">
-            <span class="about__check">
-              <svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3.5 3.5L13 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-            Acompanhamento em todas as etapas do tratamento
-          </li>
+          <li class="about__item"><span class="about__check"><svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3.5 3.5L13 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Planejamento cirúrgico digital</li>
+          <li class="about__item"><span class="about__check"><svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3.5 3.5L13 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Avaliação individualizada da face</li>
+          <li class="about__item"><span class="about__check"><svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3.5 3.5L13 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Correção de alterações da maxila, mandíbula e queixo</li>
+          <li class="about__item"><span class="about__check"><svg viewBox="0 0 16 16" fill="none"><path d="M3 8l3.5 3.5L13 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Acompanhamento em todas as etapas do tratamento</li>
         </ul>
-        <a href="https://wa.me/5565981481988?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20quero%20agendar%20uma%20consulta%20com%20o%20Dr.%20Bruno." target="_blank" rel="noopener" class="btn btn--primary">
-          <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.116.549 4.107 1.51 5.845L.057 23.664a.5.5 0 0 0 .605.637l6.011-1.576A11.946 11.946 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.892 0-3.664-.516-5.18-1.414l-.371-.22-3.844 1.008 1.026-3.739-.241-.387A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
-          Agendar avaliação
-        </a>
+        <a href="https://wa.me/5565981481988?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20quero%20agendar%20uma%20consulta%20com%20o%20Dr.%20Bruno." target="_blank" rel="noopener" class="btn btn--primary"><svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.116.549 4.107 1.51 5.845L.057 23.664a.5.5 0 0 0 .605.637l6.011-1.576A11.946 11.946 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.892 0-3.664-.516-5.18-1.414l-.371-.22-3.844 1.008 1.026-3.739-.241-.387A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>Agendar avaliação</a>
       </div>
     </div>
   </section>
 
   <!-- ===== CONTATO ===== -->
   <section class="contact" id="contato">
-    <div class="container">
-      <div class="contact__inner">
-        <div class="contact__header">
-          <p class="section-eyebrow">Primeiro passo</p>
-          <h2 class="section-title">Agende sua avaliação</h2>
-          <p class="contact__sub">Converse com a equipe e entenda qual procedimento pode ser indicado para o seu caso.</p>
-        </div>
-        <form class="contact__form" id="contactForm">
-          <div class="form__group">
-            <label class="form__label" for="name">Nome</label>
-            <input class="form__input" type="text" id="name" name="name" placeholder="Seu nome completo" required />
-          </div>
-          <div class="form__group">
-            <label class="form__label" for="whatsapp">WhatsApp</label>
-            <input class="form__input" type="tel" id="whatsapp" name="whatsapp" placeholder="(65) 9 0000-0000" required />
-          </div>
-          <div class="form__group">
-            <label class="form__label" for="procedure">Procedimento de interesse</label>
-            <select class="form__input form__select" id="procedure" name="procedure" required>
-              <option value="" disabled selected>Selecione um procedimento</option>
-              <option value="Cirurgia Ortognática">Cirurgia Ortognática</option>
-              <option value="Mentoplastia">Mentoplastia</option>
-              <option value="Próteses Faciais">Próteses Faciais</option>
-              <option value="Ainda não sei, quero uma avaliação">Ainda não sei, quero uma avaliação</option>
-            </select>
-          </div>
-          <div class="form__group">
-            <label class="form__label" for="message">Mensagem</label>
-            <textarea class="form__input form__textarea" id="message" name="message" placeholder="Conte um pouco sobre seu caso (opcional)" rows="4"></textarea>
-          </div>
-          <button type="submit" class="btn btn--primary btn--full">
-            <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.116.549 4.107 1.51 5.845L.057 23.664a.5.5 0 0 0 .605.637l6.011-1.576A11.946 11.946 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.892 0-3.664-.516-5.18-1.414l-.371-.22-3.844 1.008 1.026-3.739-.241-.387A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
-            Enviar pelo WhatsApp
-          </button>
-        </form>
+    <div class="container"><div class="contact__inner">
+      <div class="contact__header">
+        <p class="section-eyebrow">Primeiro passo</p>
+        <h2 class="section-title">Agende sua avaliação</h2>
+        <p class="contact__sub">Converse com a equipe e entenda qual procedimento pode ser indicado para o seu caso.</p>
       </div>
-    </div>
+      <form class="contact__form" id="contactForm">
+        <div class="form__group"><label class="form__label" for="name">Nome</label><input class="form__input" type="text" id="name" name="name" placeholder="Seu nome completo" required /></div>
+        <div class="form__group"><label class="form__label" for="whatsapp">WhatsApp</label><input class="form__input" type="tel" id="whatsapp" name="whatsapp" placeholder="(65) 9 0000-0000" required /></div>
+        <div class="form__group"><label class="form__label" for="procedure">Procedimento de interesse</label><select class="form__input form__select" id="procedure" name="procedure" required><option value="" disabled selected>Selecione um procedimento</option><option value="Cirurgia Ortognática">Cirurgia Ortognática</option><option value="Mentoplastia">Mentoplastia</option><option value="Próteses Faciais">Próteses Faciais</option><option value="Ainda não sei, quero uma avaliação">Ainda não sei, quero uma avaliação</option></select></div>
+        <div class="form__group"><label class="form__label" for="message">Mensagem</label><textarea class="form__input form__textarea" id="message" name="message" placeholder="Conte um pouco sobre seu caso (opcional)" rows="4"></textarea></div>
+        <button type="submit" class="btn btn--primary btn--full"><svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.116.549 4.107 1.51 5.845L.057 23.664a.5.5 0 0 0 .605.637l6.011-1.576A11.946 11.946 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.892 0-3.664-.516-5.18-1.414l-.371-.22-3.844 1.008 1.026-3.739-.241-.387A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>Enviar pelo WhatsApp</button>
+      </form>
+    </div></div>
   </section>
 
   <!-- ===== LOCALIZAÇÃO ===== -->
   <section class="location" id="localizacao">
     <div class="container">
-      <div class="section-header">
-        <p class="section-eyebrow">Onde nos encontrar</p>
-        <h2 class="section-title">Atendimento em Cuiabá MT</h2>
-      </div>
+      <div class="section-header"><p class="section-eyebrow">Onde nos encontrar</p><h2 class="section-title">Atendimento em Cuiabá MT</h2></div>
       <div class="location__inner">
         <div class="location__info">
           <div class="location__address">
@@ -535,16 +283,16 @@
       <p class="footer__cfm">
         As informações contidas neste site têm caráter informativo e não substituem a consulta médica.
       </p>
+      <div class="footer__social">
+        <a href="https://www.instagram.com/drbruno.bucomaxilo/" target="_blank" rel="noopener" class="footer__social-link" aria-label="Instagram Dr. Bruno Gomes">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @drbruno.bucomaxilo
+        </a>
+      </div>
     </div>
   </footer>
 
-  <!-- ===== WHATSAPP FLUTUANTE ===== -->
-  <a href="https://wa.me/5565981481988?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20quero%20agendar%20uma%20consulta%20com%20o%20Dr.%20Bruno." target="_blank" rel="noopener" class="whatsapp-float" id="whatsappFloat" aria-label="Agendar consulta pelo WhatsApp">
-    <div class="whatsapp-float__icon">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.116.549 4.107 1.51 5.845L.057 23.664a.5.5 0 0 0 .605.637l6.011-1.576A11.946 11.946 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.892 0-3.664-.516-5.18-1.414l-.371-.22-3.844 1.008 1.026-3.739-.241-.387A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
-    </div>
-    <span class="whatsapp-float__text">Agendar consulta</span>
-  </a>
+  <a href="https://wa.me/5565981481988?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20quero%20agendar%20uma%20consulta%20com%20o%20Dr.%20Bruno." target="_blank" rel="noopener" class="whatsapp-float" id="whatsappFloat" aria-label="Agendar consulta pelo WhatsApp"><div class="whatsapp-float__icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.116.549 4.107 1.51 5.845L.057 23.664a.5.5 0 0 0 .605.637l6.011-1.576A11.946 11.946 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.892 0-3.664-.516-5.18-1.414l-.371-.22-3.844 1.008 1.026-3.739-.241-.387A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg></div><span class="whatsapp-float__text">Agendar consulta</span></a>
 
   <script src="js/script.js"></script>
 </body>
